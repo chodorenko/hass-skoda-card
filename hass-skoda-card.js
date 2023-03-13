@@ -47,8 +47,8 @@ class SkodaCard extends LitElement {
     this.imageurl = 'https://ip-modcwp.azureedge.net//modcwp3v5b20200903/0F0F-2ovtqWUlebk-6kVu2o9bdY-17NgmyXQTv.qVlH-yIC8G.6aPQ2EXMUzv-s1BZqeSWgmRyK69.kcuHUNDxO-DiSFcTLXOgdPZlAGIn-1080570studiovbeauty_connectview101281.png';
     this.config = config;
     if (this.config.imageurl) {
-//      this.imageurl = this.config.imageurl;
-        this.imageurl = this._hass.states.entity_id['sensor.kodiaq_model_image_url_large'];
+      this.imageurl = this.config.imageurl;
+//        this.imageurl = this._hass.states.entity_id['sensor.kodiaq_model_image_url_large'];
     }
   }
   render(){
