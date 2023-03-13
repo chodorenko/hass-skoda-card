@@ -148,7 +148,7 @@ class SkodaCard extends LitElement {
 
   // @TODO: This requires more intelligent logic
   getCardSize() {
-    return 4;
+    return 1;
   }
 
   getIcon(entity) {
