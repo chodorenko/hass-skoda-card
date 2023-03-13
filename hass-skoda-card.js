@@ -48,7 +48,7 @@ class SkodaCard extends LitElement {
     this.config = config;
     if (this.config.imageurl) {
 //      this.imageurl = this.config.imageurl;
-        this.imageurl = sensor.kodiaq_model_image_url_large
+        this.imageurl = sensor.kodiaq_model_image_url_large;
     }
   }
   render(){
